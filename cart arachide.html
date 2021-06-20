@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>JELMPB - Ecommerce Website, enregistrement des produits Restez chez vous, Rendez Vous Dans Votre Boutique En Ligne! Achetez en ligne tous les produits Essentiels ✔ Supermarché, Produits de nettoyage, Produits Scolaire, Pavet, Matériels ou Outils D'ecoles et plus encore ✔ Toutes les marques à petits prix...! ✈ Livraison rapide partout à Abidjan... ✔ Paiement à la livraison</title>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="wrapper container">
+        <div class="logo"><a href="">JELMPB-Shop</a></div>
+        <ul class="nav-list">
+          <div class="top">
+            <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+          </div>
+          <li><a href="index.html">Domicile</a></li>
+          <li><a href="products.html">Des produits</a></li>
+          <li>
+            <a href="" class="desktop-item">Boutique <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item">Boutique <span><i class="fas fa-chevron-down"></i></span></label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="./images/eleve devant ordi.png" alt="" />
+                </div>
+                <div class="row">
+                  <header>Aménagement de la boutique</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Boutique avec arrière-plan</a></li>
+                    <li><a href="#">Magasiner les mini catégories</a></li>
+                    <li><a href="#">Magasiner uniquement les catégories</a></li>
+                    <li><a href="#">Catégories d'icônes de la boutique</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Disposition du filtre</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Barre latérale</a></li>
+                    <li><a href="#">Filtre par défaut</a></li>
+                    <li><a href="#">Tiroir de filtre</a></li>
+                    <li><a href="#">Liste déroulante des filtres</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Présentation du produit</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Zoom sur la mise en page</a></li>
+                    <li><a href="#">Mise en page collante</a></li>
+                    <li><a href="#">Mise en page collante 2</a></li>
+                    <li><a href="#">Défilement de mise en page</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="">Blog</a></li>
+          <li>
+            <a href="" class="desktop-item">fournisseurs <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop1" />
+            <label for="showdrop1" class="mobile-item">fournisseurs <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu1">
+              <li><a href="">Listes des magasins des fournisseurs</a></li>
+              <li><a href="">Détails du magasin</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="" class="desktop-item">Page <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop2" />
+            <label for="showdrop2" class="mobile-item">Page <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu2">
+              <li><a href="">À propos</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Faq</a></li>
+              <li><a href="">Page 404</a></li>
+            </ul>
+          </li>
+          <!-- icons -->
+          <li class="icons">
+            <span>
+              <img src="./images/shoppingBag.svg" alt="" />
+              <small class="count d-flex">0</small>
+            </span>
+            <span><img src="./images/search.svg" alt="" /></span>
+          </li>
+        </ul>
+        <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+
+    <!-- Cart Items -->
+    <div class="container cart">
+      <table>
+        <tr>
+          <th>produit</th>
+          <th>quantité</th>
+          <th>sous-total</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product1.jpg" alt="" />
+              <div>
+                <p>Trousse Réciclable</p>
+                <span>Price: 500.00 fcfa</span>
+                <br />
+                <a href="trousse.html">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" class="" value="1" min="1" /></td>
+          <td>500.00 fcfa</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>sous-total</td>
+            <td>500 fcfa</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>500 fcfa</td>
+          </tr>
+        </table>
+        <a href="index.html" class="checkout btn">Passer à la caisse</a>
+      </div>
+    </div>
+
+     <!-- Footer -->
+     <footer id="footer" class="section footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-center">
+            <h3>SUPPLÉMENTS</h3>
+            <a href="#">les partenaires</a>
+            <a href="#">Certificats-cadeaux</a>
+            <a href="#">Affilier</a>
+            <a href="#">Promotions</a>
+            <a href="#">Plan du site</a>
+          </div>
+          <div class="footer-center">
+            <h3>INFORMATION</h3>
+            <a href="#">À propos de nous</a>
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">termes et conditions</a>
+            <a href="#">Nous contacter</a>
+            <a href="#">Plan du site</a>
+          </div>
+          <div class="footer-center">
+            <h3>MON COMPTE</h3>
+            <a href="#">MON COMPTE</a>
+            <a href="#">Historique des commandes</a>
+            <a href="#">Liste de souhaits</a>
+            <a href="#">Bulletin</a>
+            <a href="#">Retour</a>
+          </div>
+          <div class="footer-center">
+            <h3>CONTACTER-NOUS</h3>
+            <div>
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              JELMPB, 724R+2P Abidjan, COTE D'IVOIRE
+            </div>
+            <div>
+              <span>
+                <i class="far fa-envelope"></i>
+              </span>
+              JELMPB-Shop@gmail.com
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-phone"></i>
+              </span>
+              +225 bla bla bla
+            </div>
+            <div class="payment-methods">
+              <img src="./images/payment.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+  <!-- End Footer -->
+
+    <!-- Custom Scripts -->
+    <script src="./js/products.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
