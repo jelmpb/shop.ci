@@ -733,6 +733,18 @@ nav .wrapper {
   }
 }
 
+/* video presentation */
+.video{
+  width: 50%;
+}
+.video iframe{
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0px 10px 0px 50%;
+  height: 400px;
+}
+
 /* ADVERTS */
 .advert .advert-layout {
   display: grid;
