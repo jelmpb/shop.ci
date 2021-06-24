@@ -735,13 +735,13 @@ nav .wrapper {
 
 /* video presentation */
 .video{
-  width: 50%;
+  width: 90%;
 }
 .video iframe{
   border: none;
   border-radius: 10px;
   width: 100%;
-  margin: 0px 10px 0px 50%;
+  margin: 5% 0px 0px 5%;
   height: 400px;
 }
 
@@ -1331,3 +1331,25 @@ th:last-child {
     gap: 4rem 0;
   }
 }
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  color: #f1f1f1;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.footer .social-média{
+  display: flex;
+}
+
+.footer .social-média p{
+  flex-wrap: wrap;
+  margin-right: 15px;
+  border: none;
+  outline: none;
+  text-align: center;
+  justify-content: space-between;
+}
+
