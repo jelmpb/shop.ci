@@ -869,7 +869,7 @@ nav .wrapper {
 
 /* FOOTER */
 
-.footer {
+  .footer {
   background-color: var(--black);
   padding: 6rem 1rem;
   line-height: 3rem;
@@ -1351,4 +1351,8 @@ th:last-child {
   outline: none;
   text-align: center;
   justify-content: space-between;
+  position: center;
+}
+.footer p{
+  position: center;
 }
