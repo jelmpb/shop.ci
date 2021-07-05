@@ -432,7 +432,7 @@ nav .wrapper {
 
 .hero .left a {
   display: inline-block;
-  color: var(--white);
+  color: var(--primary);
   font-weight: 700;
   border: 2px solid var(--white);
   padding: 0.7rem 1.5rem;
