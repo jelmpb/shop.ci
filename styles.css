@@ -388,9 +388,10 @@ nav .wrapper {
 /* Hero */
 .hero {
   height: calc(100vh - 6.5rem);
-  background-color: var(--primary);
+  background-image: url(images/footer-bg.jpg);
   position: relative;
   overflow: hidden;
+  background-repeat: no-repeat;
 }
 
 .hero .right {
