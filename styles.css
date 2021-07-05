@@ -392,18 +392,8 @@ nav .wrapper {
   position: relative;
   overflow: hidden;
   background-repeat: no-repeat;
-}
-
-.hero .right {
-  position: absolute;
-  right: -7%;
-  bottom: -1%;
-}
-
-.hero .right img {
-  max-width: 80rem;
-  width: 100%;
-  height: 60rem;
+  background-attachment: fixed;
+  background-position: auto;
 }
 
 .hero .left {
@@ -414,6 +404,7 @@ nav .wrapper {
 }
 
 .hero .left span {
+  color: var(--primary);
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -425,6 +416,7 @@ nav .wrapper {
   line-height: 1.2;
 }
 .hero .left small {
+  color: var(--primary);
   display: block;
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
@@ -432,22 +424,23 @@ nav .wrapper {
 
 .hero .left a {
   display: inline-block;
-  color: var(--primary);
+  color: yellowgreen;
   font-weight: 700;
-  border: 2px solid var(--white);
+  border: 2px solid yellowgreen;
   padding: 0.7rem 1.5rem;
   margin-top: 1rem;
   transition: all 300ms ease-out;
 }
 
 .hero .left a:hover {
-  color: var(--primary);
-  background-color: var(--white);
+  color: yellow;
+  background-color: yellowgreen;
 }
 
 @media only screen and (max-width: 1200px) {
-  .hero .right img {
-    height: 50rem;
+  .hero{
+    width: auto;
+    background-position: 30%;
   }
 
   .hero .left span {
@@ -460,6 +453,9 @@ nav .wrapper {
 }
 
 @media only screen and (max-width: 996px) {
+  .hero{
+    width: auto;
+  }
   .hero .left {
     top: 30%;
   }
@@ -467,23 +463,31 @@ nav .wrapper {
   .hero .right img {
     height: 35rem;
   }
-
-  .hero .right {
-    right: -10%;
-  }
 }
 
 @media only screen and (max-width: 567px) {
+  .hero{
+    width: auto;
+  }
   .hero .left {
     top: 25%;
   }
 
-  .hero .right img {
-    height: 30rem;
+  .hero .left span {
+    font-size: 1.6rem;
   }
 
-  .hero .right {
-    right: -18%;
+  .hero .left h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .hero{
+    width: auto;
+  }
+  .hero .left {
+    top: 20%;
   }
 
   .hero .left span {
