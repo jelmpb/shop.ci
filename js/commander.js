@@ -6,4 +6,4 @@ leBouton.onclick = () => {
 
 console.log(leBouton);
 
-//déclencher une action avec écouteur d'évement addEventListener()
+

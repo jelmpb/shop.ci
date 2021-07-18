@@ -22,7 +22,9 @@
   <!-- Navigation -->
   <nav class="nav">
     <div class="wrapper container">
-      <div class="logo"><a href="index.html">JELMPB-Shop</a></div>
+      <logo>
+        <div class="logo"><a href="index.html">JELMPB-Shop</a></div>
+      </logo>
       <ul class="nav-list">
         <div class="top">
           <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
@@ -493,16 +495,30 @@
                    </div>
                    <div class="input website">
                     <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Objet"></span>
-                  </div>
-                  <div class="message">
-                    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="*Message"></textarea></span>
-                  </div>
-                  <div class="wpcf7-response-output" aria-hidden="true"></div>
-                  <p style="display: none !important"><span class="wpcf7-form-control-wrap referer-page"><input type="text" name="referer-page" value="http://Direct%20Visit" data-value="http://Direct%20Visit" size="40" class="wpcf7-form-control wpcf7-text referer-page" aria-invalid="false"></span></p>
-                   <div class="footer-form-box">
-                     <input type="submit" class="footer-form-submit-style" value="ENVOYER">
                    </div>
-                </form>
+                   <div class="message">
+                     <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="*Message"></textarea></span>
+                   </div>
+                   <div class="wpcf7-response-output" aria-hidden="true"></div>
+                   <p style="display: none !important"><span class="wpcf7-form-control-wrap referer-page"><input type="text" name="referer-page" value="http://Direct%20Visit" data-value="http://Direct%20Visit" size="40" class="wpcf7-form-control wpcf7-text referer-page" aria-invalid="false"></span></p>
+                    <div class="footer-form-box">
+                      <button><input type="submit" class="footer-form-submit-style" value="ENVOYER"></button>
+                    </div>
+                  </form>
+                  <form action="">
+                    <fieldset>
+                      <legend><strong> Genre</strong></legend>
+                      <p>
+                        <input type="radio" name="genre" id="Homme" value="Homme">
+                        <label for="Homme"> Homme</label>
+                      </p>
+                      <p>
+                        <input type="radio" name="genre" id="Femme" value="Femme">
+                        <label for="Homme"> Femme</label>
+                      </p>
+                    </fieldset>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -524,6 +540,8 @@
   <script src="./js/index.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/panier.js"></script>
+  <SCript src="./js/commander.js"></SCript>
+  <script src="./js/entrer en conctact.js"></script>
 </body>
 
 </html>
