@@ -1,3 +1,6 @@
+let btnEnvoyer = document.querySelector("button");
+console.log(btnEnvoyer);
+
 const openNav = document.querySelector(".open-btn");
 const closeNav = document.querySelector(".close-btn");
 const menu = document.querySelector(".nav-list");
