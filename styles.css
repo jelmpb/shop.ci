@@ -404,7 +404,7 @@ nav .wrapper {
 }
 
 .hero .left span {
-  color: var(--primary);
+  color: var(--black);
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 1rem;
