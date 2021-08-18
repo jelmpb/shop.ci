@@ -414,7 +414,7 @@ nav .wrapper {
   font-size: 4.5rem;
   margin-bottom: 1rem;
   line-height: 1.2;
-  color:#828282;
+  color:yellow;
 }
 .hero .left small {
   color: var(--primary);
