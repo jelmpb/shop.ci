@@ -404,7 +404,7 @@ nav .wrapper {
 }
 
 .hero .left span {
-  color: var(--black);
+  color: var(--primary);
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -414,6 +414,7 @@ nav .wrapper {
   font-size: 4.5rem;
   margin-bottom: 1rem;
   line-height: 1.2;
+  color:#222;
 }
 .hero .left small {
   color: var(--primary);
@@ -424,17 +425,18 @@ nav .wrapper {
 
 .hero .left a {
   display: inline-block;
-  color: yellowgreen;
+  color: yellow;
   font-weight: 700;
-  border: 2px solid yellowgreen;
+  border: 2px solid yellow;
   padding: 0.7rem 1.5rem;
   margin-top: 1rem;
   transition: all 300ms ease-out;
+  background-color: yellowgreen;
 }
 
 .hero .left a:hover {
-  color: yellow;
-  background-color: yellowgreen;
+  color: yellowgreen;
+  background-color: yellow;
 }
 
 @media only screen and (max-width: 1200px) {
